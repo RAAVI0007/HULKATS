@@ -1,0 +1,204 @@
+
+<!-- Navigation-->
+<%@include file="./shared/nav.jsp"%>
+
+<div class="content-wrapper">
+	<div class="container-fluid">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a
+				href="${pageContext.servletContext.contextPath}/manager/dashBord">Dashboard</a>
+			</li>
+			<li class="breadcrumb-item"><a
+				href="${pageContext.servletContext.contextPath}/manager/register">Registration</a>
+			</li>
+			<li class="breadcrumb-item active">New Account</li>
+		</ol>
+
+		<div class="card card-register mx-auto mt-5">
+			<div class="card-header">
+				<h3 align="center">New Account</h3>
+			</div>
+			<div class="card-body">
+
+				<!-- Loading Starts -->
+				<div id="loading"
+					style="margin: 0px; padding: 0px; position: fixed; right: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(102, 102, 102); z-index: 30001; opacity: 0.8; display: none;">
+					<p style="position: absolute; color: White; top: 50%; left: 45%;">
+						<img src="<c:url value='/resources/images/ajax-loader.gif'/>"
+							id="img" />
+				</div>
+				<!-- Loading End -->
+
+
+				<!-- Error Messages -->
+				<div class="form-group" style="text-align: center">
+					<h5>
+						<span id='success' style="color: green;"></span> <span id='error'
+							style="color: red; margin-left: auto; margin-right: auto;"></span>
+					</h5>
+				</div>
+				<!-- Error Message Ending -->
+
+				<form id="registration" name="registration" action="/register">
+
+					<div class="form-group">
+						<div class="form-row">
+							<div class="col-md-6">
+								<label for="firstname">First Name</label> <input
+									class="form-control" type="text" name="firstname"
+									id="firstname" placeholder="Enter First Name">
+							</div>
+							<div class="col-md-6">
+								<label for="lastname">Last Name</label> <input
+									class="form-control" type="text" name="lastname" id="lastname"
+									placeholder="Enter Last Name">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+					    <div class="form-row">
+							<div class="col-md-6">
+								<label for="firstname">Organization Name</label> <input
+									class="form-control" type="text" name="firstname"
+									id="organization" placeholder="Enter Organization Name">
+							</div>
+							<div class="col-md-6">
+								<label for="email">Email</label> <input class="form-control"
+									type="email" name="email" id="email" placeholder="Enter Email">
+							</div>
+					    </div>
+					</div>
+					<div class="form-group">
+					    <div class="form-row">
+							
+									<label for="password">Password</label> <input
+										title="Password must contain at least 6 characters, including UPPER/lowercase and numbers"
+										type="password" id="password" class="form-control" required
+										pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd1"
+										onchange="this.setCustomValidity(this.validity.patternMismatch ? this.title : '');
+  if(this.checkValidity()) form.pwd2.pattern = RegExp.escape(this.value);
+">
+								
+							</div>
+					</div>
+					<div class="form-group">
+					    <div class="form-row">
+								<label>Contact Number</label> <input type="text"
+									class="form-control" name="phoneNumber"
+									id="mobile" />
+							</div>
+						</div>
+					<div class="form-group">
+					    <div class="form-row">
+								<label>Trail Period(In days)</label> <input type="text"
+									class="form-control" name="phoneNumber"
+									id="trail"  value="5"/>
+							</div>
+						</div><br>
+					<br>
+					<!-- Error Messages -->
+					<div class="form-group" style="text-align: center">
+						<h5>
+							<span id='success1' style="color: green;"></span> <span
+								id='error1'
+								style="color: red; margin-left: auto; margin-right: auto;"></span>
+						</h5>
+					</div>
+
+					<!-- Error Message Ending -->
+					<div class="form-group" style="text-align: center">
+						<div class="col-xs-12" style="margin-top: 5px">
+							<button id="reg" onclick="checkAjaxCall();" type="button"
+								class="btn btn-success" style="height: 35px">Submit</button>
+						</div>
+					</div>
+				
+				</form>
+
+			</div>
+
+		</div>
+
+		<!--   footer -->
+		<%@include file="./shared/footer.jsp"%>
+
+	
+
+	</div>
+</div>
+<div id="footer"></div>
+<div class="modal fade" id="myModal" role="dialog" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+       <div class="modal-header" style="background-color: #00c851;">
+            <p class="heading lead" align="center" ><b><h4>Feedback</h4></b></p>
+        </div>
+        <div class="modal-body">
+            <div class="text-center">    
+               <b> <p id="matter">Welcome to <br/><img src="../images/HulkATS_logo.png"
+								style="width: 250px;" /><br/>Your social recruiting partner</p></b>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class="modal-footer" id="footer">
+         
+          <a onclick="next();" id="right"><i class="fa fa-arrow-circle-right fa-2x mb-3 animated rotateIn blink"  style="color:green"></i></a>
+             
+        </div>
+    </div>
+      </div>
+      
+    </div>
+
+
+<!-- Bootstrap core JavaScript-->
+<script type="text/JavaScript"
+	src="../vendor/jquery/jquery.min.js"></script>
+<script type="text/JavaScript"
+	src="../vendor/popper/popper.min.js"></script>
+<script type="text/JavaScript"
+	src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script type="text/JavaScript"
+	src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Page level plugin JavaScript-->
+
+<script type="text/JavaScript"
+	src="../js/sb-admin.min.js"></script>
+<script type="text/JavaScript"
+	src="../js/raphael.min.js"></script>
+	<script type="text/JavaScript"
+	src="../js/select2.min.js"></script>
+<script type="text/JavaScript"
+	src="../js/jquery-ui.js"></script>
+<script src="../js/intlTelInput.min.js"></script>
+
+<script src="../tempjs/config.js"></script>
+<script src="../tempjs/adminregistration.js"></script>
+ <script>
+		$(function(){
+			$("#header").load("nav.html"); 
+			$("#footer").load("footer.html"); 
+		});
+	</script>
+<!--<script src="../tempjs/feedback.js"></script>
+
+
+
+
+
+<script src="../<c:url value='/resources/js/jquery.validate.min.js' />"></script>
+<script src="../<c:url value='/resources/js/wow.min.js' />"></script>
+<script src="../<c:url value='/resources/js/owl.carousel.js' />"></script>
+<script src="../<c:url value='/resources/js/jquery.mCustomScrollbar.min.js' />"></script>
+<script src="../<c:url value='/resources/js/slick.js' />"></script>
+<script src="../<c:url value='/resources/js/easyResponsiveTabs.js' />"></script> -->
+	
+
+	
+</body>
+
+</html>

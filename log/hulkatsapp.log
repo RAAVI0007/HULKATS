@@ -1,0 +1,991 @@
+[INFO] 2019-07-08 23:23:59,705 com.web.hulklogic.dao.Impl.UserDAOImpl getUserByEmail - email :joy@hulklogic.com
+[INFO] 2019-07-08 23:23:59,726 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - teamidTeam367854
+[INFO] 2019-07-08 23:23:59,726 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - userid4
+[INFO] 2019-07-08 23:24:00,896 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:00,899 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:24:00,899 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:24:00,912 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:00,931 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:00,932 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:00,933 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:00,933 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:00,934 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:00,934 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:00,935 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,038 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:24:01,039 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:24:01,067 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :A72CB017597D9379E298969C200DFADC
+[INFO] 2019-07-08 23:24:01,067 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-08 23:24:01,068 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-08 23:24:01,070 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-08 23:24:01,070 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,089 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,094 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-08 23:24:01,101 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-08 23:24:01,102 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-08 23:24:01,105 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-08 23:24:01,106 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,118 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,106 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-08 23:24:01,120 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,121 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,126 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-08 23:24:01,130 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,131 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,118 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-08 23:24:01,121 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-08 23:24:01,140 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-08 23:24:01,142 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,142 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:01,143 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-08 23:24:06,676 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - sessionId:A72CB017597D9379E298969C200DFADC
+[INFO] 2019-07-08 23:24:06,677 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - userId:4
+[INFO] 2019-07-08 23:24:06,678 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-08 23:24:06,681 com.web.hulklogic.dao.Impl.EditDetailsDAOIml deleteSessions - userId:4
+[INFO] 2019-07-08 23:24:06,729 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - userId:4
+[INFO] 2019-07-08 23:24:06,730 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - sessionId1:A72CB017597D9379E298969C200DFADC
+[INFO] 2019-07-08 23:24:18,381 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:18,381 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:18,384 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:24:18,389 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:24:18,389 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:18,392 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:18,392 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:18,394 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:18,394 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:18,405 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:18,408 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:18,421 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:24:18,421 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:24:21,937 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:24:21,938 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:24:21,939 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:21,939 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:21,945 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:21,959 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:21,959 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:21,962 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:21,963 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:21,965 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:21,965 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:21,977 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:24:21,984 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:24:21,985 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:24:21,998 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:24:38,300 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[INFO] 2019-07-08 23:24:38,300 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[ERROR] 2019-07-08 23:24:38,301 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:24:38,302 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:38,309 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:38,315 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:38,315 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:38,319 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:38,319 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:24:38,323 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:38,323 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:38,328 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:24:38,328 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:24:38,331 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:38,332 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:38,341 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:24:38,341 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:24:40,452 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:1
+[INFO] 2019-07-08 23:24:40,453 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:24:40,453 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:1
+[INFO] 2019-07-08 23:24:40,454 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:26:00,392 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:1
+[INFO] 2019-07-08 23:26:00,395 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:26:00,396 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:1
+[INFO] 2019-07-08 23:26:00,396 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:26:07,202 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:18
+[INFO] 2019-07-08 23:26:07,202 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:26:07,203 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:18
+[INFO] 2019-07-08 23:26:07,203 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:26:16,897 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-08 23:26:16,900 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:26:16,901 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19
+[INFO] 2019-07-08 23:26:16,901 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:26:45,465 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:27
+[INFO] 2019-07-08 23:26:45,465 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:26:45,466 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:27
+[INFO] 2019-07-08 23:26:45,466 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:26:54,500 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-08 23:26:54,502 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:26:54,503 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19
+[INFO] 2019-07-08 23:26:54,504 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,605 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,606 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,606 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:28:03,608 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:28:03,607 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,609 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,606 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,608 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,612 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,620 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,621 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,623 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:28:03,624 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:28:03,628 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,629 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:03,639 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:28:03,640 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:28:16,413 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:28:16,414 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:28:16,420 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,420 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,430 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:28:16,430 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:28:16,433 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,433 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,436 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,436 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,438 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,438 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,440 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,448 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,453 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:28:16,450 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:28:16,456 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:35:36,003 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:35:36,015 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:35:36,016 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,017 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,013 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,003 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,019 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,024 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,024 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,026 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,027 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,068 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:35:36,071 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:35:36,099 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:35:36,100 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,100 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:35:36,100 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:40:47,506 com.web.hulklogic.dao.Impl.UserDAOImpl getUserByEmail - email :joy@hulklogic.com
+[INFO] 2019-07-08 23:40:47,587 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - teamidTeam367854
+[INFO] 2019-07-08 23:40:47,587 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - userid4
+[INFO] 2019-07-08 23:40:48,814 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:48,826 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:40:48,827 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:40:48,843 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:40:48,843 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:40:48,870 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:48,873 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:40:48,875 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:48,875 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:40:48,918 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:48,919 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:48,944 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:40:48,945 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:40:48,950 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :292E0D2C7DF0A44646D312F84B4CFCD7
+[INFO] 2019-07-08 23:40:48,950 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-08 23:40:48,951 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-08 23:40:48,962 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-08 23:40:48,966 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-08 23:40:48,967 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-08 23:40:48,980 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-08 23:40:48,981 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:48,987 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:49,014 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-08 23:40:49,014 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:49,015 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:49,029 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-08 23:40:49,029 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-08 23:40:49,029 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:49,030 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:49,030 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-08 23:40:49,041 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-08 23:40:49,042 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:49,042 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:49,048 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-08 23:40:49,048 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:49,049 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:40:49,053 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-08 23:40:50,980 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - sessionId:292E0D2C7DF0A44646D312F84B4CFCD7
+[INFO] 2019-07-08 23:40:50,980 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - userId:4
+[INFO] 2019-07-08 23:40:50,981 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-08 23:40:50,983 com.web.hulklogic.dao.Impl.EditDetailsDAOIml deleteSessions - userId:4
+[INFO] 2019-07-08 23:40:51,033 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - userId:4
+[INFO] 2019-07-08 23:40:51,034 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - sessionId1:292E0D2C7DF0A44646D312F84B4CFCD7
+[INFO] 2019-07-08 23:41:01,592 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:41:01,593 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:41:01,594 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,594 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,602 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,609 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,610 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,620 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,621 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,621 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,622 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,629 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:41:01,630 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:41:01,631 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,632 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:41:01,662 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:41:01,672 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:44:19,473 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:1
+[INFO] 2019-07-08 23:44:19,483 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:44:19,486 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:1
+[INFO] 2019-07-08 23:44:19,487 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:45:16,398 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:18
+[INFO] 2019-07-08 23:45:16,399 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:45:16,401 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:18
+[INFO] 2019-07-08 23:45:16,402 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:45:22,104 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-08 23:45:22,105 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:45:22,106 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19
+[INFO] 2019-07-08 23:45:22,107 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,506 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[INFO] 2019-07-08 23:48:08,507 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,508 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,508 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,509 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,510 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[ERROR] 2019-07-08 23:48:08,508 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:48:08,523 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,523 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,528 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,529 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,531 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:48:08,533 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:48:08,540 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,540 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:08,550 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:48:08,551 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:48:26,244 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:48:26,245 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:48:26,244 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,246 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,249 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,259 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,260 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,268 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,269 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,272 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,272 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,278 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:48:26,278 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:48:26,284 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,284 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:26,291 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:48:26,292 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:48:28,752 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:48:28,752 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:48:28,753 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,754 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,752 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,755 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,755 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,762 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,763 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,770 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,771 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,774 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:48:28,774 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:48:28,779 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,780 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:28,781 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:48:28,781 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:48:41,798 com.web.hulklogic.dao.Impl.UserDAOImpl getUserByEmail - email :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:41,805 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - teamidTeam367854
+[INFO] 2019-07-08 23:48:41,805 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - userid4
+[INFO] 2019-07-08 23:48:43,056 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:48:43,057 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:48:43,064 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,065 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,069 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,075 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,075 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,078 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,078 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,084 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,085 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,087 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:48:43,088 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:48:43,100 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :2D6ADE84913EEDD9D04C0A5418B68185
+[INFO] 2019-07-08 23:48:43,101 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-08 23:48:43,101 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-08 23:48:43,102 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-08 23:48:43,104 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-08 23:48:43,104 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-08 23:48:43,105 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-08 23:48:43,105 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,106 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,117 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-08 23:48:43,117 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,118 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,139 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-08 23:48:43,139 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-08 23:48:43,140 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,140 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,140 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-08 23:48:43,141 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-08 23:48:43,142 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,142 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,152 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-08 23:48:43,153 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,154 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:43,165 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-08 23:48:46,134 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - sessionId:2D6ADE84913EEDD9D04C0A5418B68185
+[INFO] 2019-07-08 23:48:46,135 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - userId:4
+[INFO] 2019-07-08 23:48:46,136 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-08 23:48:46,138 com.web.hulklogic.dao.Impl.EditDetailsDAOIml deleteSessions - userId:4
+[INFO] 2019-07-08 23:48:46,203 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - userId:4
+[INFO] 2019-07-08 23:48:46,203 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - sessionId1:2D6ADE84913EEDD9D04C0A5418B68185
+[INFO] 2019-07-08 23:48:53,082 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:48:53,084 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:48:53,085 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,085 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,085 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,083 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,087 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,094 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,095 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,095 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,096 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,096 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:48:53,096 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:48:53,098 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,099 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:48:53,173 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:48:53,173 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:53:59,333 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:53:59,335 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:53:59,339 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,341 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,351 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,353 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,353 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,366 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,367 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,370 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,370 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,372 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:53:59,373 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:53:59,380 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :2D6ADE84913EEDD9D04C0A5418B68185
+[INFO] 2019-07-08 23:53:59,380 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-08 23:53:59,381 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-08 23:53:59,382 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-08 23:53:59,384 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-08 23:53:59,384 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-08 23:53:59,384 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,385 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,385 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-08 23:53:59,388 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-08 23:53:59,389 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,389 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,393 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-08 23:53:59,394 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-08 23:53:59,394 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,394 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,395 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-08 23:53:59,399 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-08 23:53:59,400 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,400 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,408 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-08 23:53:59,409 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,410 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:53:59,419 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-08 23:54:03,766 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[INFO] 2019-07-08 23:54:03,767 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:54:03,767 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[ERROR] 2019-07-08 23:54:03,767 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:54:03,776 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:54:03,779 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:54:03,779 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:54:03,784 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:54:03,784 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:54:03,784 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:54:03,784 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:54:03,787 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:54:03,788 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:54:03,796 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:54:03,796 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:54:03,805 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:54:03,805 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:55:16,354 com.web.hulklogic.dao.Impl.UserDAOImpl getUserByEmail - email :joy@hulklogic.com
+[INFO] 2019-07-08 23:55:16,372 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - teamidTeam367854
+[INFO] 2019-07-08 23:55:16,372 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - userid4
+[INFO] 2019-07-08 23:55:17,410 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,411 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-08 23:55:17,412 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:55:17,420 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,427 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,438 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,439 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,445 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,446 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,446 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,448 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,496 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:55:17,497 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:55:17,503 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :20A53649D2BEBD0EDB01231D818E7C70
+[INFO] 2019-07-08 23:55:17,507 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-08 23:55:17,508 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-08 23:55:17,510 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-08 23:55:17,510 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,511 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-08 23:55:17,516 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-08 23:55:17,517 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,518 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-08 23:55:17,519 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,519 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,519 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,520 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-08 23:55:17,519 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,524 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-08 23:55:17,548 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,554 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,560 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-08 23:55:17,566 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-08 23:55:17,567 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-08 23:55:17,594 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-08 23:55:17,598 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-08 23:55:17,599 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:17,599 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:20,375 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - sessionId:20A53649D2BEBD0EDB01231D818E7C70
+[INFO] 2019-07-08 23:55:20,376 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - userId:4
+[INFO] 2019-07-08 23:55:20,377 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-08 23:55:20,381 com.web.hulklogic.dao.Impl.EditDetailsDAOIml deleteSessions - userId:4
+[INFO] 2019-07-08 23:55:20,424 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - userId:4
+[INFO] 2019-07-08 23:55:20,424 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - sessionId1:20A53649D2BEBD0EDB01231D818E7C70
+[INFO] 2019-07-08 23:55:26,031 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:26,031 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[INFO] 2019-07-08 23:55:26,032 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[ERROR] 2019-07-08 23:55:26,032 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-08 23:55:26,036 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:55:26,047 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:26,048 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:55:26,050 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:26,050 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-08 23:55:26,061 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:26,061 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-08 23:55:26,061 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:26,062 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-08 23:55:26,069 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:26,069 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com
+[INFO] 2019-07-08 23:55:26,080 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-08 23:55:26,093 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:00:18,718 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:00:18,721 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:00:18,726 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19
+[INFO] 2019-07-09 00:00:18,727 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,789 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:01:54,790 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:01:54,791 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,792 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,798 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,806 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,806 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,813 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,813 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,825 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:01:54,825 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,825 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:01:54,826 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,830 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,830 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com
+[INFO] 2019-07-09 00:01:54,839 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:01:54,840 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:01:57,104 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:01:57,105 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:01:57,105 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19
+[INFO] 2019-07-09 00:01:57,106 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,417 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[INFO] 2019-07-09 00:03:16,417 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,419 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[ERROR] 2019-07-09 00:03:16,419 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:03:16,425 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,433 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,433 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,438 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,438 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,442 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,442 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,446 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:03:16,447 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:03:16,452 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,452 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:16,460 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:03:16,461 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:03:18,337 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:03:18,338 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:18,338 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19
+[INFO] 2019-07-09 00:03:18,338 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:23,328 com.web.hulklogic.controllers.RegistrationController logout - userId:4
+[INFO] 2019-07-09 00:03:23,329 com.web.hulklogic.dao.Impl.EditDetailsDAOIml saveLogoutInfo - userid:4
+[INFO] 2019-07-09 00:03:23,395 com.web.hulklogic.controllers.RegistrationController logout - deleterecord:1
+[INFO] 2019-07-09 00:03:31,075 com.web.hulklogic.dao.Impl.UserDAOImpl getUserByEmail - email :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:31,080 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - teamidTeam367854
+[INFO] 2019-07-09 00:03:31,080 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - userid4
+[INFO] 2019-07-09 00:03:31,950 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:03:31,950 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:03:31,953 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:31,953 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:31,962 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:31,973 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:31,974 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:31,981 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:31,981 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:31,990 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:31,991 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:31,992 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:03:31,993 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:03:32,001 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :6FA6BB47C823B40EDF3D9B8E289B575A
+[INFO] 2019-07-09 00:03:32,003 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-09 00:03:32,004 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-09 00:03:32,004 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-09 00:03:32,004 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-09 00:03:32,004 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:32,005 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:32,006 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-09 00:03:32,006 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:03:32,032 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-09 00:03:32,033 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:32,033 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:32,041 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-09 00:03:32,042 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-09 00:03:32,042 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:32,043 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:32,043 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-09 00:03:32,043 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-09 00:03:32,044 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:32,044 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:32,048 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-09 00:03:32,049 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:32,049 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:32,050 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-09 00:03:34,554 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - sessionId:6FA6BB47C823B40EDF3D9B8E289B575A
+[INFO] 2019-07-09 00:03:34,554 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - userId:4
+[INFO] 2019-07-09 00:03:34,554 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:03:34,556 com.web.hulklogic.dao.Impl.EditDetailsDAOIml deleteSessions - userId:4
+[INFO] 2019-07-09 00:03:34,636 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - userId:4
+[INFO] 2019-07-09 00:03:34,636 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - sessionId1:6FA6BB47C823B40EDF3D9B8E289B575A
+[INFO] 2019-07-09 00:03:37,321 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:03:37,321 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:03:37,322 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,322 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,325 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,327 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,328 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,327 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,329 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,329 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,331 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,338 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:03:37,338 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:03:37,339 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,340 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:37,350 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:03:37,351 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:03:38,955 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:03:38,955 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:03:38,956 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19
+[INFO] 2019-07-09 00:03:38,957 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,847 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:04:37,848 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:04:37,851 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,852 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,855 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,862 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,863 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,864 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,865 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,867 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,868 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,876 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:04:37,876 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:04:37,878 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,878 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com
+[INFO] 2019-07-09 00:04:37,886 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:04:37,887 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:04:39,154 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:04:39,155 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:04:39,155 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19
+[INFO] 2019-07-09 00:04:39,155 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:05,490 com.web.hulklogic.dao.Impl.UserDAOImpl getUserByEmail - email :joy@hulklogic.com
+[INFO] 2019-07-09 00:05:05,710 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - teamidTeam367854
+[INFO] 2019-07-09 00:05:05,710 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - userid4
+[INFO] 2019-07-09 00:05:06,757 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,760 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:05:06,761 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:05:06,767 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,774 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,782 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,784 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,785 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,787 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,812 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,812 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,863 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:05:06,864 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:05:06,878 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :0701F9C66C7ED7382338660E199C0D75
+[INFO] 2019-07-09 00:05:06,878 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-09 00:05:06,879 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-09 00:05:06,890 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-09 00:05:06,901 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-09 00:05:06,902 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:05:06,903 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-09 00:05:06,904 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,904 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-09 00:05:06,904 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-09 00:05:06,910 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,909 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,908 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-09 00:05:06,911 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,904 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-09 00:05:06,911 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-09 00:05:06,912 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,912 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,912 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,912 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,912 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,912 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:06,914 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-09 00:05:06,983 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-09 00:05:08,409 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - sessionId:0701F9C66C7ED7382338660E199C0D75
+[INFO] 2019-07-09 00:05:08,409 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - userId:4
+[INFO] 2019-07-09 00:05:08,409 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:05:08,411 com.web.hulklogic.dao.Impl.EditDetailsDAOIml deleteSessions - userId:4
+[INFO] 2019-07-09 00:05:08,463 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - userId:4
+[INFO] 2019-07-09 00:05:08,464 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - sessionId1:0701F9C66C7ED7382338660E199C0D75
+[INFO] 2019-07-09 00:05:10,201 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:05:10,202 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:05:10,204 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:10,205 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:05:10,217 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:05:10,220 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:10,220 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:05:10,229 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:10,229 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:05:10,231 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:10,231 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:10,241 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:05:10,241 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:05:10,245 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:10,245 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com>>>>select  j.jobtitle,j.jobid from job j inner join jobassign ja on j.jobid=ja.jobid where ja.recuiteremail=:email
+[INFO] 2019-07-09 00:05:10,254 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:05:10,267 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:05:20,036 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:05:20,038 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:05:20,039 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19>>>select a.firstname, a.lastname, a.location, a.email,a.contactno,a.lastjobtitle,a.highesteducation,a.applicantid,ap.app_id, ap.status,ap.source from applicant a inner join applicationstart ap on ap.applicantid = a.applicantid inner join job j on ap.jobid = j.jobid  inner join jobassign ja on ja.jobid=j.jobid where ap.jobid=:jobId and ja.recuiteremail=:email
+[INFO] 2019-07-09 00:05:20,040 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:14,648 com.web.hulklogic.dao.Impl.UserDAOImpl getUserByEmail - email :joy@hulklogic.com
+[INFO] 2019-07-09 00:06:14,670 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - teamidTeam367854
+[INFO] 2019-07-09 00:06:14,671 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - userid4
+[INFO] 2019-07-09 00:06:15,645 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,649 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:06:15,649 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:06:15,656 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,662 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,672 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,672 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,675 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,672 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,687 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,688 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,744 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:06:15,745 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:06:15,748 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :6EE7BD65CF8DFC9F37C0DB30C23D3B97
+[INFO] 2019-07-09 00:06:15,748 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-09 00:06:15,749 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-09 00:06:15,757 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-09 00:06:15,757 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,759 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-09 00:06:15,760 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-09 00:06:15,760 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,761 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-09 00:06:15,763 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,763 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,764 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-09 00:06:15,767 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-09 00:06:15,767 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:06:15,815 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-09 00:06:15,816 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,816 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,820 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-09 00:06:15,820 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-09 00:06:15,821 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,821 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,815 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-09 00:06:15,830 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:15,831 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:17,352 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - sessionId:6EE7BD65CF8DFC9F37C0DB30C23D3B97
+[INFO] 2019-07-09 00:06:17,353 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - userId:4
+[INFO] 2019-07-09 00:06:17,353 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:06:17,355 com.web.hulklogic.dao.Impl.EditDetailsDAOIml deleteSessions - userId:4
+[INFO] 2019-07-09 00:06:17,432 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - userId:4
+[INFO] 2019-07-09 00:06:17,433 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - sessionId1:6EE7BD65CF8DFC9F37C0DB30C23D3B97
+[INFO] 2019-07-09 00:06:19,648 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:06:19,649 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:06:19,658 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:19,659 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:06:19,660 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:06:19,661 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:19,661 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:06:19,666 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:19,667 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:06:19,669 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:19,670 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:19,674 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:06:19,674 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:06:19,687 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:19,688 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com>>>>select  j.jobtitle,j.jobid from job j inner join jobassign ja on j.jobid=ja.jobid where ja.recuiteremail=:email
+[INFO] 2019-07-09 00:06:19,697 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:06:19,705 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:06:21,370 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:06:21,371 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:06:21,372 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19>>>select a.firstname, a.lastname, a.location, a.email,a.contactno,a.lastjobtitle,a.highesteducation,a.applicantid,ap.app_id, ap.status,ap.source from applicant a inner join applicationstart ap on ap.applicantid = a.applicantid inner join job j on ap.jobid = j.jobid  inner join jobassign ja on ja.jobid=j.jobid where ap.jobid=:jobId and ja.recuiteremail=:email
+[INFO] 2019-07-09 00:06:21,372 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:15,731 com.web.hulklogic.dao.Impl.UserDAOImpl getUserByEmail - email :joy@hulklogic.com
+[INFO] 2019-07-09 00:07:15,758 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - teamidTeam367854
+[INFO] 2019-07-09 00:07:15,758 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - userid4
+[INFO] 2019-07-09 00:07:16,518 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,522 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:07:16,523 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:07:16,528 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,531 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,537 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,537 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,548 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,549 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,560 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,561 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,612 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:07:16,613 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:07:16,622 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :916DB5BBC5191B689F7E20747B764708
+[INFO] 2019-07-09 00:07:16,622 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-09 00:07:16,623 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,623 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-09 00:07:16,624 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-09 00:07:16,624 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-09 00:07:16,625 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-09 00:07:16,622 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-09 00:07:16,625 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,625 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,626 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,626 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,626 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,633 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-09 00:07:16,636 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-09 00:07:16,637 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-09 00:07:16,638 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:07:16,640 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-09 00:07:16,641 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,642 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,648 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-09 00:07:16,649 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,649 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:16,650 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-09 00:07:18,129 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - sessionId:916DB5BBC5191B689F7E20747B764708
+[INFO] 2019-07-09 00:07:18,129 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - userId:4
+[INFO] 2019-07-09 00:07:18,130 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:07:18,132 com.web.hulklogic.dao.Impl.EditDetailsDAOIml deleteSessions - userId:4
+[INFO] 2019-07-09 00:07:18,195 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - userId:4
+[INFO] 2019-07-09 00:07:18,195 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - sessionId1:916DB5BBC5191B689F7E20747B764708
+[INFO] 2019-07-09 00:07:20,142 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:20,142 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[INFO] 2019-07-09 00:07:20,142 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[ERROR] 2019-07-09 00:07:20,143 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:07:20,146 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:07:20,157 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:20,157 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:20,158 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:07:20,158 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:07:20,159 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:20,159 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:20,169 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:07:20,169 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:07:20,171 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:20,171 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com>>>>select  j.jobtitle,j.jobid from job j inner join jobassign ja on j.jobid=ja.jobid where ja.recuiteremail=:email
+[INFO] 2019-07-09 00:07:20,189 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:07:20,197 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:07:25,265 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:07:25,266 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:07:25,268 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19>>>select a.firstname, a.lastname, a.location, a.email,a.contactno,a.lastjobtitle,a.highesteducation,a.applicantid,ap.app_id, ap.status,ap.source from applicant a inner join applicationstart ap on ap.applicantid = a.applicantid inner join job j on ap.jobid = j.jobid  inner join jobassign ja on ja.jobid=j.jobid where ap.jobid=:jobId and ja.recuiteremail=:email
+[INFO] 2019-07-09 00:07:25,269 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:21,857 com.web.hulklogic.dao.Impl.UserDAOImpl getUserByEmail - email :joy@hulklogic.com
+[INFO] 2019-07-09 00:08:21,936 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - teamidTeam367854
+[INFO] 2019-07-09 00:08:21,937 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - userid4
+[INFO] 2019-07-09 00:08:22,662 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,666 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:08:22,666 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:08:22,672 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,679 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,686 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,688 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,706 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,706 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,707 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,708 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,764 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:08:22,765 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:08:22,769 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-09 00:08:22,770 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-09 00:08:22,770 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,769 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-09 00:08:22,769 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-09 00:08:22,772 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,774 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :038350E721865A9D06BB06192C3715A4
+[INFO] 2019-07-09 00:08:22,774 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-09 00:08:22,774 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-09 00:08:22,775 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-09 00:08:22,776 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,776 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,773 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,778 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,776 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,775 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,779 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-09 00:08:22,784 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-09 00:08:22,787 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-09 00:08:22,787 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:08:22,788 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-09 00:08:22,788 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-09 00:08:22,789 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:22,790 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:27,083 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - sessionId:038350E721865A9D06BB06192C3715A4
+[INFO] 2019-07-09 00:08:27,084 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - userId:4
+[INFO] 2019-07-09 00:08:27,085 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:08:27,087 com.web.hulklogic.dao.Impl.EditDetailsDAOIml deleteSessions - userId:4
+[INFO] 2019-07-09 00:08:27,190 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - userId:4
+[INFO] 2019-07-09 00:08:27,191 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - sessionId1:038350E721865A9D06BB06192C3715A4
+[INFO] 2019-07-09 00:08:29,167 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:29,167 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[INFO] 2019-07-09 00:08:29,168 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[ERROR] 2019-07-09 00:08:29,168 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:08:29,175 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:08:29,175 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:29,176 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:08:29,182 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:29,183 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:08:29,188 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:29,189 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:29,196 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:08:29,197 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:08:29,199 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:29,200 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com>>>>select  j.jobtitle,j.jobid from job j inner join jobassign ja on j.jobid=ja.jobid where ja.recuiteremail=:email
+[INFO] 2019-07-09 00:08:29,216 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:08:29,226 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:08:32,206 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:08:32,207 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:08:32,207 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19>>>select a.firstname, a.lastname, a.location, a.email,a.contactno,a.lastjobtitle,a.highesteducation,a.applicantid,ap.app_id, ap.status,ap.source from applicant a inner join applicationstart ap on ap.applicantid = a.applicantid inner join job j on ap.jobid = j.jobid  inner join jobassign ja on ja.jobid=j.jobid where ap.jobid=:jobId and ja.recuiteremail=:email
+[INFO] 2019-07-09 00:08:32,207 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,507 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:09:22,508 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:09:22,509 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,509 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,518 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,520 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,521 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,523 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,524 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,528 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,528 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,531 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:09:22,532 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:09:22,537 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:22,538 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com>>>>select  j.jobtitle,j.jobid from job j inner join jobassign ja on j.jobid=ja.jobid where ja.recuiteremail=:email
+[INFO] 2019-07-09 00:09:22,547 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:09:22,547 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:09:23,706 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:09:23,708 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:23,708 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19>>>select a.firstname, a.lastname, a.location, a.email,a.contactno,a.lastjobtitle,a.highesteducation,a.applicantid,ap.app_id, ap.status,ap.source from applicant a inner join applicationstart ap on ap.applicantid = a.applicantid inner join job j on ap.jobid = j.jobid  inner join jobassign ja on ja.jobid=j.jobid where ap.jobid=:jobId and ja.recuiteremail=:email
+[INFO] 2019-07-09 00:09:23,709 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:47,949 com.web.hulklogic.dao.Impl.UserDAOImpl getUserByEmail - email :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:47,966 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - teamidTeam367854
+[INFO] 2019-07-09 00:09:47,967 com.web.hulklogic.config.CustomeAuthenticationSuccessHandler onAuthenticationSuccess - userid4
+[INFO] 2019-07-09 00:09:48,768 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,772 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:09:48,772 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:09:48,779 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,791 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,802 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,802 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,820 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,822 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,822 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,824 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,865 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:09:48,866 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:09:48,868 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - sessionId :432DDB1BB3062C77531A17DA5A342F44
+[INFO] 2019-07-09 00:09:48,869 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - userId:4
+[INFO] 2019-07-09 00:09:48,869 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - teamname:Team367854
+[INFO] 2019-07-09 00:09:48,880 com.web.hulklogic.dao.Impl.EditDetailsDAOIml checkLoginUser - userId:4
+[INFO] 2019-07-09 00:09:48,883 com.web.hulklogic.controllers.RegistrationController checkLoginStatus - checkUserLogin :1
+[INFO] 2019-07-09 00:09:48,883 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:09:48,904 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - days:3
+[INFO] 2019-07-09 00:09:48,904 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - days:3
+[INFO] 2019-07-09 00:09:48,904 com.web.hulklogic.controllers.RecruiterDashBordController sourceAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,905 com.web.hulklogic.controllers.RecruiterDashBordController statusAnalytics - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,908 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl statusAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,908 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl sourceAnalyticsTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,923 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - days:3
+[INFO] 2019-07-09 00:09:48,924 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - teamname:Team367854
+[INFO] 2019-07-09 00:09:48,924 com.web.hulklogic.controllers.RecruiterDashBordController applicantHiredAndTarget - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,924 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,925 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl countApplicantHiredAndTargetTillPer - teamname:Team367854
+[INFO] 2019-07-09 00:09:48,946 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - days:3
+[INFO] 2019-07-09 00:09:48,947 com.web.hulklogic.controllers.RecruiterDashBordController applicationprocessNew - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,948 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl applicationInProcessNewTillPerRecruiter - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,958 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - days:3
+[INFO] 2019-07-09 00:09:48,959 com.web.hulklogic.controllers.RecruiterDashBordController jobsOpenAndClosedSeven - recruiterEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,960 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getCountJobOpenClosedTillNow - recruiteremail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:48,967 com.web.hulklogic.controllers.ManagerController getTermsConditionsValue - userid:4
+[INFO] 2019-07-09 00:09:50,228 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - sessionId:432DDB1BB3062C77531A17DA5A342F44
+[INFO] 2019-07-09 00:09:50,229 com.web.hulklogic.controllers.RegistrationController loginWithThirdDevice - userId:4
+[INFO] 2019-07-09 00:09:50,230 com.web.hulklogic.dao.Impl.EditDetailsDAOIml getSessions - userId :4
+[INFO] 2019-07-09 00:09:50,232 com.web.hulklogic.dao.Impl.EditDetailsDAOIml deleteSessions - userId:4
+[INFO] 2019-07-09 00:09:50,252 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - userId:4
+[INFO] 2019-07-09 00:09:50,252 com.web.hulklogic.dao.Impl.EditDetailsDAOIml insertSession1 - sessionId1:432DDB1BB3062C77531A17DA5A342F44
+[INFO] 2019-07-09 00:09:52,504 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[INFO] 2019-07-09 00:09:52,505 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:52,505 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[ERROR] 2019-07-09 00:09:52,505 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:09:52,516 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:52,517 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:52,518 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:52,524 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:52,525 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:09:52,528 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:52,528 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:52,531 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:09:52,532 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:09:52,537 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterJobTitle - recruiterEmail:getRecruiterJobTitle:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:52,537 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getJobTitleByRecruiter - email:getJobTitleByRecruiter:joy@hulklogic.com>>>>select  j.jobtitle,j.jobid from job j inner join jobassign ja on j.jobid=ja.jobid where ja.recuiteremail=:email
+[INFO] 2019-07-09 00:09:52,554 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:09:52,565 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:09:54,075 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - jobId:19
+[INFO] 2019-07-09 00:09:54,075 com.web.hulklogic.controllers.RecruiterDashBordController getRecruiterApplications - recruiterEmail:getRecruiterApplications:joy@hulklogic.com
+[INFO] 2019-07-09 00:09:54,076 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - jobId:19>>>select a.firstname, a.lastname, a.location, a.email,a.contactno,a.lastjobtitle,a.highesteducation,a.applicantid,ap.app_id, ap.status,ap.source from applicant a inner join applicationstart ap on ap.applicantid = a.applicantid inner join job j on ap.jobid = j.jobid  inner join jobassign ja on ja.jobid=j.jobid where ap.jobid=:jobId and ja.recuiteremail=:email
+[INFO] 2019-07-09 00:09:54,077 com.web.hulklogic.dao.Impl.RecruiterDashBordDAOImpl getApplicationByRecruiter - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:22:32,323 com.web.hulklogic.controllers.JobTitleController getDocumentsByAppId - app_id:3
+[INFO] 2019-07-09 00:22:32,327 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getJobAndApplicantDocuments - app_id :3
+[INFO] 2019-07-09 00:22:32,375 com.web.hulklogic.controllers.LoginController logosetting - currentEmail: Hulklogic_119_1_1_16_12.gif
+[ERROR] 2019-07-09 00:22:32,376 com.web.hulklogic.controllers.LoginController logosetting - Exception is: java.io.FileNotFoundException: /opt/hulkats/images/Hulklogic_119_1_1_16_12.gif (No such file or directory)
+[INFO] 2019-07-09 00:22:32,376 com.web.hulklogic.controllers.SupportController getMessageInfo - currenLoginEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:22:32,377 com.web.hulklogic.dao.Impl.SupportDAOImpl getmessageDetails - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:22:32,383 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicantAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:22:32,396 com.web.hulklogic.controllers.SupportController getJobAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:22:32,397 com.web.hulklogic.dao.Impl.SupportDAOImpl getJobAlerts - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:22:32,400 com.web.hulklogic.controllers.SupportController getApplicationAlertDetail - currentEmail:joy@hulklogic.com
+[INFO] 2019-07-09 00:22:32,400 com.web.hulklogic.dao.Impl.SupportDAOImpl getApplicationAlert - currentEmail :joy@hulklogic.com
+[INFO] 2019-07-09 00:22:32,406 com.web.hulklogic.controllers.SupportController getTotalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:22:32,406 com.web.hulklogic.dao.Impl.SupportDAOImpl totalAlerts - email:joy@hulklogic.com
+[INFO] 2019-07-09 00:22:32,412 com.web.hulklogic.controllers.SupportController getTotalMessage - userId:4
+[INFO] 2019-07-09 00:22:32,412 com.web.hulklogic.dao.Impl.SupportDAOImpl totalMessages - userid:4
+[INFO] 2019-07-09 00:22:32,419 com.web.hulklogic.controllers.ApplicationController getAppStatusByAppId - appId:3
+[INFO] 2019-07-09 00:22:32,426 com.web.hulklogic.controllers.JobTitleController getApplicantInfoByAppIdprofilename - app_id:3
+[INFO] 2019-07-09 00:22:32,427 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getProfileInfoByAppId - app_id :3
+[INFO] 2019-07-09 00:22:32,429 com.web.hulklogic.controllers.JobTitleController getApplicantInfoByAppId - app_id:3
+[INFO] 2019-07-09 00:22:32,429 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getApplicantInfoByAppId - app_id :3
+[INFO] 2019-07-09 00:22:32,598 com.web.hulklogic.controllers.JobTitleController getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:22:32,608 com.web.hulklogic.dao.Impl.JobTitleDAOImpl getAllTemplateNames - hulkats
+[INFO] 2019-07-09 00:22:32,651 com.web.hulklogic.controllers.ShowTemplateDocuments applicationHistoryByAppId - app_id:3
+[INFO] 2019-07-09 00:22:32,652 com.web.hulklogic.dao.Impl.TemplateDAOImpl getApplicationHistoryByappId - appIds:3
+[INFO] 2019-07-09 00:22:32,687 com.web.hulklogic.controllers.JobTitleController getApplicantInfoByAppIdprofilename - app_id:null
+[INFO] 2019-07-09 00:22:32,807 com.web.hulklogic.controllers.JobTitleController getApplicantInfoByAppId - app_id:+91 90071 27628
