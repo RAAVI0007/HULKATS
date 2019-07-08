@@ -16,6 +16,7 @@ import com.web.hulklogic.service.RecruiterDashBordService;
 @Service
 public class RecruiterDashBordServiceImpl implements RecruiterDashBordService {
 
+	
 	@Autowired
 	private RecruiterDashBordDAO recruiterDashBordDao;
 
